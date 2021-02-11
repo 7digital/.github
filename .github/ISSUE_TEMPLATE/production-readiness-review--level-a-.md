@@ -31,8 +31,6 @@ It is recommended to ensure that your service is deployed in production (but not
 - [ ] Automated deploy - Its deploy process is automated.
 - [ ] Gradual deploy - Its deploy can be gradual if you want.
 - [ ] Automated rollback - Its rollback process is automated.
-- [ ] chart_with_downwards_trend Observability
-- [ ] Observability affects team productivity and system availability. If observability is low, the team will take a longer time to notice/investigate a problem occurred in production. And it will make MTTR (Mean Time To Recover) longer.
 
 ## :chart_with_downwards_trend: Observability
 - [ ] Dashboard - Dashboards including metrics applicable to the SLO
@@ -43,8 +41,6 @@ It is recommended to ensure that your service is deployed in production (but not
 - [ ] OnCall rotation - It has a opsgenie team, escalation policy, schedules.
 - [ ] Log to STDOUT - Its logs are output to STDOUT/STDERR and captured by Datadog.
 - [ ] Log as JSON - Its logs are emitted in the log format.
-- [ ] airplane Reliability
-- [ ] Reliability affects availability and productivity. If reliability is low, your system will break down often. The team will have to take time to fix it. Then, both system availability and team productivity will be decreased.
 
 ## :airplane: Reliability
 - [ ] Manual Scale - It can be manually scaled horizontally to handle changes in workload.
@@ -56,22 +52,16 @@ It is recommended to ensure that your service is deployed in production (but not
 - [ ] Service Health Check - Automated health checks should be running and linked to alerting. The health check should check that the service is actually running (ie, not just return a 200 if the webserver is up)
 - [ ] Timeout - It sets an appropriate timeout for requests over a network, to prevent cascade failure.
 - [ ] Smart retry - It performs smart retries when interacting with dependencies (e.g. other services or database).
-- [ ] lock Security
-- [ ] If security is low, customer and company data will be stolen or fabricated (Data breaches).
 
 ## :lock: Security
 - [ ] Least privilege - Services run with the minimum access required
 - [ ] Secrets - Its sensitive configuration is stored in separately from version control.
 - [ ] Non-sensitive log - It does not write sensitive information to app logs (STDOUT/STDERR).
-- [ ] clipboard Accessibility
-- [ ] Accessibility affects team/organization productivity. If accessibility is low, getting information about the service will be difficult for both people inside/outside the team. It reduces organization productivity.
 
 ## :clipboard: Accessibility
 - [ ] README - Implements the README template
 - [ ] RUNBOOK - Implements the RUNBOOK template
 - [ ] SLOs - Its dashboard shows SLOs.
-- [ ] file_folder Data Storage
-- [ ] Checks for services that have one or more data stores (e.g. databases, blob storage, ...). In addition to these checks, please refer to the service-specific sections below.
 
 ## :file_folder: Data Storage
 - [ ] Read Replicas - Its databases have one or more read replicas, and it uses them for reads that do not need strict consistency.
