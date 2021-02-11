@@ -7,7 +7,7 @@ assignees: AntonyKing7D, danjamesmay, jonlmarsh
 
 ---
 
-This template is the [Production Readiness Checklist](https://github.com/7digital/7d-production-readiness-checklist/blob/master/docs/references/production-readiness-checklist.md) (PRC) for [Level A](https://github.com/7digital/7d-production-readiness-checklist/blob/master/docs/references/production-readiness-level.md) service. Please make sure you have read the [PRC guidelines](https://github.com/7digital/7d-production-readiness-checklist/blob/master/PROCESS.md).
+This template is the [Production Readiness Checklist](https://github.com/7digital/7d-production-readiness-checklist/blob/master/docs/references/production-readiness-checklist.md) (PRC) for [Level A](https://github.com/7digital/7d-production-readiness-checklist/blob/master/docs/references/production-readiness-level.md) service. Please make sure you have read the [process doc](https://github.com/7digital/7d-production-readiness-checklist/blob/master/PROCESS.md).
 
 Production Readiness Review has the following 2 phases:
 
