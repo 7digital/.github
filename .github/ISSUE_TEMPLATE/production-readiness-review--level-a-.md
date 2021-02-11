@@ -3,8 +3,8 @@ name: Production Readiness Review (Level A)
 about: Critical service template
 title: Production Readiness Review (Level A)
 labels: ''
-assignees: ''
+assignees: jonlmarsh, danjamesmay, AntonyKing7D
 
 ---
 
-TEST
+Please assign all SRE's on-call for your service to this issue.
