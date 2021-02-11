@@ -1,1 +1,1 @@
-# .github
+# Org-level documentation templates
