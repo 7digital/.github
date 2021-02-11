@@ -11,8 +11,8 @@ This template is the [Production Readiness Checklist](https://github.com/7digita
 
 Production Readiness Review has the following 2 phases:
 
-[Design phase review](https://github.com/7digital/7d-production-readiness-checklist/blob/master/docs/references/design-checklist.md)
-[Pre-production phase review](https://github.com/7digital/7d-production-readiness-checklist/blob/master/docs/references/pre-production-checklist.md)
+- [Design phase review](https://github.com/7digital/7d-production-readiness-checklist/blob/master/docs/references/design-checklist.md)
+- [Pre-production phase review](https://github.com/7digital/7d-production-readiness-checklist/blob/master/docs/references/pre-production-checklist.md)
 
 Please complete the Design phase review before beginning development of your service and complete the Pre-production phase review before your service receives real (i.e. customer) production traffic.
 
